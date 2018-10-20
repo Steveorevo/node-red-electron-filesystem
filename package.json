@@ -1,0 +1,33 @@
+{
+  "name": "node-red-contrib-filesystem",
+  "version": "0.0.1",
+  "description": "Provides a compact, concise, cross-platform filesystem node allowing for multiple file and folder operations.",
+  "author": "Stephen J. Carnam <steveorevo@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "node-red",
+    "directories",
+    "filesystem",
+    "folders",
+    "files",
+    "copying",
+    "appending",
+    "searching",
+    "search",
+    "find",
+    "read",
+    "write"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Steveorevo/node-red-contrib-filesystem.git"
+  },
+  "dependencies": {
+    "string": "https://github.com/Steveorevo/string.js/archive/3.3.6.tar.gz"
+  },
+  "node-red": {
+    "nodes": {
+      "string": "string/string.js"
+    }
+  }
+}
